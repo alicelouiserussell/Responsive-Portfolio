@@ -212,15 +212,17 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #9ddfdb;
   border: 0 none;
 }
 
 /* Responsive styling */
 
+/* Max-width 640px */
 @media screen and (max-width: 640px) {
   #logo {
     width: 100%;
+    margin-left: 0px;
   }
 
   nav {
@@ -245,3 +247,25 @@ input[type=submit] {
     margin-bottom: 15px;
   }
 } 
+
+/* Max-width 768px */
+
+#logo {
+  margin-left: 20px;
+}
+
+nav {
+  max-width: 768px;
+  margin-right: 40px;
+}
+
+.main-section {
+  margin: 20px;
+  width: 100%;
+  max-width: 740px;
+}
+
+.auth-image {
+  width: 350px;
+  height: 377.5px;
+}
